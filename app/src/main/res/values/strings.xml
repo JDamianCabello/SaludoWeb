@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SaludoWeb</string>
+    <string name="tvName">Dime tu nombre</string>
+    <string name="tvLink" />
+    <string name="btNavegar">Navegar</string>
+    <string name="btSaluda">Saludar</string>
+    <string name="tvSaludo">Your Fucking Name Here</string>
+</resources>
