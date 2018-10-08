@@ -11,15 +11,16 @@ import butterknife.ButterKnife;
 public class HoliwiActivity extends AppCompatActivity {
 
     @BindView(R.id.tvSaludo) TextView saludo;
+    private String nombre;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_holiwi);
         ButterKnife.bind(this);
-        Intent intent = this.getIntent();
-        String caca =  "Hola "+ intent.getStringExtra("nombre");
-        saludo.setText(caca);
+        nombre = "hola ";
+        nombre += getIntent().getStringExtra("nombre");
+        saludo.setText(nombre);
 
     }
 }
